@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# 虚拟环境（本地依赖，不入库；他人 clone 后用 requirements.txt 自行安装）
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 本地临时测试脚本
+_runtest.py
